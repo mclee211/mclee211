@@ -1,0 +1,68 @@
+body{
+	background-image: url("../images/background.png")
+}
+
+div{
+	border: solid 4px white;
+	padding: 10px;
+	margin: 10px;
+	width: 25%
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 36pt;
+}
+h3{
+	font-weight: bold;
+	font-size: 12pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+
+
+div.header, div.gems{
+	background-color: #e0e0eb;
+}
+div.header{
+	width: 50%;
+	background-color: orange
+}
+
+div.manual{
+	width: 50%;
+	background-color: rgb(216, 182, 71);
+	font-display: rgb(1, 87, 1)
+	
+}
+
+.numberGoal {
+	float: left;
+	width: 20%;
+	height: 64px;
+	background-color:lawngreen;
+}
+
+div.WinLoss{
+	float: left;
+	width: 25%;
+	height: 64px;
+	background-color:aqua;
+}
+
+
+
+.Total{
+	width: 25%;
+	height: 50px;
+	background-color: teal
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 50px;
+	margin: 10px;
+	border-right: 10px
+}
