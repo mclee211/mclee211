@@ -1,0 +1,63 @@
+html, body, main, .row {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.container {
+    text-shadow: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px !important;
+}
+
+p {
+    font-size: 20px !important;
+}
+
+body {
+    background-image: url("paper.jpg");
+    background-repeat: repeat-x;
+}
+
+.card-header {
+    color: white;
+    text-shadow: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-style: bold;
+    background-color: rgb(68, 64, 64) !important;
+}
+
+.btn {
+    border-radius: 50% !important;
+}
+
+.cardForm {
+    margin: 25px 50px 75px 100px;
+    opacity: 0.8;
+  filter: alpha(opacity=50);
+  width: 500px;
+  background-color: white;
+  display: inline-block;
+}
+
+.form-control {
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
